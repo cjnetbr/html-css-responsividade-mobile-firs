@@ -1,7 +1,12 @@
+.conteiner {
+    display: flex;
+    align-items: center;
+}
+
 .cabecalho__menu-hamburger {
     background-image: url("../asset/svg/Menu.svg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 0.25rem;
     width: 1.5rem;
     height: 1.5rem;
     display: inline-block;
@@ -10,15 +15,12 @@
 .cabecalho {
     background-color: var(--color-text);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
     position: relative;
 }
 
-.conteiner {
-    display: flex;
-    align-items: center;
-}
+
 
 .conteiner__image {
     padding: 1rem;
