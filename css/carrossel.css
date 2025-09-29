@@ -17,9 +17,6 @@
    display: none;
 }
 
-.swiper-pagination{
-}
-
 .card{
     background-color: var(--color-text);
     margin: 1rem;
@@ -77,4 +74,28 @@
 
 .descricao img {
     padding-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 1024px){
+    .container__carrossel-title {
+        font-size: 1.625rem;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+    .swiper-pagination {
+        margin:  2rem 0 3rem 0;
+    }
+
+    .swiper-button-prev, .swiper-button-next{
+        display: block;
+        top: 60%;
+    }
+
+    .card {
+        width: 40%;
+        margin: 2rem auto;
+    }
+
 }
