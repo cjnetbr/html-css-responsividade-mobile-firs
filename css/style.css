@@ -2,6 +2,8 @@
 @import url("./header.css");
 @import url("./reset.css");
 @import url("./banner.css");
+@import url("./carrossel.css");
+
 
 
 *{
@@ -14,6 +16,7 @@
     --color-terciaria: #F9F9F9;
     --color-text: #FFFFFF;
     --color-text-title: #EB9B00;
+    --color-text-secundaria: #002F52;
     --azul-degrade: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
     --font-principal: "Poppins", sans-serif;
 
