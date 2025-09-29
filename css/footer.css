@@ -1,0 +1,11 @@
+.rodape{
+    border-top: 1px solid var(--color-text-secundaria);
+    padding: 1.5rem;
+    background-color: var(--color-text-terciaria);
+}
+
+.rodape__texto {
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+}
