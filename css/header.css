@@ -59,15 +59,11 @@
     text-transform: uppercase;
 }
 
-.container__titulo{
+.container__titulo, 
+.opcoes, 
+.conteiner__link-texto{
     display: none;
 }
-
-.opcoes {
-    display: none;
-}
-
-
 
 @media screen and (min-width: 1024px){
 
@@ -120,6 +116,31 @@
     .opcoes__botao {
         display: none;
     }
+}
 
-    
+@media screen and (min-width: 1728px){
+
+    .conteiner {
+        margin-right: 3%;
+    }
+
+    .cabecalho {
+        padding: 0 5%;
+    }
+    .conteiner__link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+    }
+
+    .opcoes {
+       margin-right: auto;
+    }
+
+    .conteiner__link-texto{
+        display: block;
+    }
+
 }

@@ -57,3 +57,19 @@
         background-position: 5rem;
     }
  }
+
+ @media screen and (min-width: 1728px){
+       .container-banner__search {
+        width: 35%;
+        margin-top: 1rem;
+    }
+
+    .container-banner__search::placeholder {
+        background-position: 9rem;
+    }
+
+    .container-banner {
+        padding: 5vw 0;
+    }
+    
+ }
